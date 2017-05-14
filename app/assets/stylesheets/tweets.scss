@@ -1,3 +1,12 @@
-// Place all the styles related to the Tweets controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+div.tweets {
+	border: 1px solid #B4BCDB;
+	margin: 10px;
+	width: 500px;
+}
+div.tweets:hover {
+	background: rgb(212, 231, 231);
+}
+div.tweets:active {
+    opacity: 0.5;
+    filter:alpha(opacity=50);
+}
