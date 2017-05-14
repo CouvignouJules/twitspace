@@ -1,0 +1,2120 @@
+---
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :created_at: Sun May 14 13:42:00 +0000 2017
+    :id: 863751250600484864
+    :id_str: '863751250600484864'
+    :text: 'RailsPanel: A Chrome Extension for Rails Development - https://t.co/Zsnx1i0sgr'
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls:
+      - :url: https://t.co/Zsnx1i0sgr
+        :expanded_url: https://github.com/dejan/rails_panel
+        :display_url: github.com/dejan/rails_pa…
+        :indices:
+        - 55
+        - 78
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 15851832
+      :id_str: '15851832'
+      :name: Ruby Inside
+      :screen_name: RubyInside
+      :location: Louth, Lincolnshire, UK
+      :description: The Ruby Inside blog - news, tips and tutorials for Ruby and Rails
+        developers.
+      :url: http://t.co/FfEesGlO8d
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/FfEesGlO8d
+            :expanded_url: http://www.rubyinside.com/
+            :display_url: rubyinside.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39959
+      :friends_count: 32
+      :listed_count: 1595
+      :created_at: Thu Aug 14 15:47:59 +0000 2008
+      :favourites_count: 19
+      :utc_offset: -14400
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 4286
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/15851832/1488894012
+      :profile_link_color: BE1E2D
+      :profile_sidebar_border_color: CD2C2C
+      :profile_sidebar_fill_color: FFDADA
+      :profile_text_color: '000000'
+      :profile_use_background_image: false
+      :has_extended_profile: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+      :translator_type: none
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 2
+    :favorite_count: 7
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :created_at: Sun May 14 10:53:06 +0000 2017
+    :id: 863708745796374529
+    :id_str: '863708745796374529'
+    :text: 'Rails 5.1''s ''assert_changes'' and ''assert_no_changes'': https://t.co/WvryMs8BbQ'
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls:
+      - :url: https://t.co/WvryMs8BbQ
+        :expanded_url: https://blog.bigbinary.com/2017/05/09/rails-5-1-introduced-assert_changes-and-assert_no_changes.html
+        :display_url: blog.bigbinary.com/2017/05/09/rai…
+        :indices:
+        - 54
+        - 77
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 15851832
+      :id_str: '15851832'
+      :name: Ruby Inside
+      :screen_name: RubyInside
+      :location: Louth, Lincolnshire, UK
+      :description: The Ruby Inside blog - news, tips and tutorials for Ruby and Rails
+        developers.
+      :url: http://t.co/FfEesGlO8d
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/FfEesGlO8d
+            :expanded_url: http://www.rubyinside.com/
+            :display_url: rubyinside.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39959
+      :friends_count: 32
+      :listed_count: 1595
+      :created_at: Thu Aug 14 15:47:59 +0000 2008
+      :favourites_count: 19
+      :utc_offset: -14400
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 4286
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/15851832/1488894012
+      :profile_link_color: BE1E2D
+      :profile_sidebar_border_color: CD2C2C
+      :profile_sidebar_fill_color: FFDADA
+      :profile_text_color: '000000'
+      :profile_use_background_image: false
+      :has_extended_profile: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+      :translator_type: none
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 3
+    :favorite_count: 4
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: fr
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :created_at: Sun May 14 07:26:00 +0000 2017
+    :id: 863656628876447744
+    :id_str: '863656628876447744'
+    :text: 'Rearmed-JS: Methods to Make JS Objects Feel More Like Ruby - https://t.co/OfKdkERyOU'
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls:
+      - :url: https://t.co/OfKdkERyOU
+        :expanded_url: https://github.com/westonganger/rearmed-js
+        :display_url: github.com/westonganger/r…
+        :indices:
+        - 61
+        - 84
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 15851832
+      :id_str: '15851832'
+      :name: Ruby Inside
+      :screen_name: RubyInside
+      :location: Louth, Lincolnshire, UK
+      :description: The Ruby Inside blog - news, tips and tutorials for Ruby and Rails
+        developers.
+      :url: http://t.co/FfEesGlO8d
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/FfEesGlO8d
+            :expanded_url: http://www.rubyinside.com/
+            :display_url: rubyinside.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39959
+      :friends_count: 32
+      :listed_count: 1595
+      :created_at: Thu Aug 14 15:47:59 +0000 2008
+      :favourites_count: 19
+      :utc_offset: -14400
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 4286
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/15851832/1488894012
+      :profile_link_color: BE1E2D
+      :profile_sidebar_border_color: CD2C2C
+      :profile_sidebar_fill_color: FFDADA
+      :profile_text_color: '000000'
+      :profile_use_background_image: false
+      :has_extended_profile: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+      :translator_type: none
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 4
+    :favorite_count: 13
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :created_at: Sat May 13 15:57:00 +0000 2017
+    :id: 863422837440348160
+    :id_str: '863422837440348160'
+    :text: 'Active Admin 1.0 Released, Supports Rails 5.1: https://t.co/a8jTldLHMC'
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls:
+      - :url: https://t.co/a8jTldLHMC
+        :expanded_url: http://www.varyonic.com/2017/04/active-admin-1-0/
+        :display_url: varyonic.com/2017/04/active…
+        :indices:
+        - 47
+        - 70
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 15851832
+      :id_str: '15851832'
+      :name: Ruby Inside
+      :screen_name: RubyInside
+      :location: Louth, Lincolnshire, UK
+      :description: The Ruby Inside blog - news, tips and tutorials for Ruby and Rails
+        developers.
+      :url: http://t.co/FfEesGlO8d
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/FfEesGlO8d
+            :expanded_url: http://www.rubyinside.com/
+            :display_url: rubyinside.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39959
+      :friends_count: 32
+      :listed_count: 1595
+      :created_at: Thu Aug 14 15:47:59 +0000 2008
+      :favourites_count: 19
+      :utc_offset: -14400
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 4286
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/15851832/1488894012
+      :profile_link_color: BE1E2D
+      :profile_sidebar_border_color: CD2C2C
+      :profile_sidebar_fill_color: FFDADA
+      :profile_text_color: '000000'
+      :profile_use_background_image: false
+      :has_extended_profile: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+      :translator_type: none
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 10
+    :favorite_count: 23
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :created_at: Sat May 13 13:42:00 +0000 2017
+    :id: 863388863238221824
+    :id_str: '863388863238221824'
+    :text: 'Faster Rails: Is Your Database Properly Indexed? https://t.co/QwtZGvPpwF'
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls:
+      - :url: https://t.co/QwtZGvPpwF
+        :expanded_url: https://semaphoreci.com/blog/2017/05/09/faster-rails-is-your-database-properly-indexed.html
+        :display_url: semaphoreci.com/blog/2017/05/0…
+        :indices:
+        - 49
+        - 72
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 15851832
+      :id_str: '15851832'
+      :name: Ruby Inside
+      :screen_name: RubyInside
+      :location: Louth, Lincolnshire, UK
+      :description: The Ruby Inside blog - news, tips and tutorials for Ruby and Rails
+        developers.
+      :url: http://t.co/FfEesGlO8d
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/FfEesGlO8d
+            :expanded_url: http://www.rubyinside.com/
+            :display_url: rubyinside.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39959
+      :friends_count: 32
+      :listed_count: 1595
+      :created_at: Thu Aug 14 15:47:59 +0000 2008
+      :favourites_count: 19
+      :utc_offset: -14400
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 4286
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/15851832/1488894012
+      :profile_link_color: BE1E2D
+      :profile_sidebar_border_color: CD2C2C
+      :profile_sidebar_fill_color: FFDADA
+      :profile_text_color: '000000'
+      :profile_use_background_image: false
+      :has_extended_profile: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+      :translator_type: none
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 17
+    :favorite_count: 53
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :created_at: Sat May 13 10:53:01 +0000 2017
+    :id: 863346335050870785
+    :id_str: '863346335050870785'
+    :text: 'A Simple Step by Step Guide to Building Your First Gem: https://t.co/wjHt89Exes'
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls:
+      - :url: https://t.co/wjHt89Exes
+        :expanded_url: https://blog.faodailtechnology.com/step-by-step-guide-to-publish-your-first-ruby-gem-bae3291aeab4
+        :display_url: blog.faodailtechnology.com/step-by-step-g…
+        :indices:
+        - 56
+        - 79
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 15851832
+      :id_str: '15851832'
+      :name: Ruby Inside
+      :screen_name: RubyInside
+      :location: Louth, Lincolnshire, UK
+      :description: The Ruby Inside blog - news, tips and tutorials for Ruby and Rails
+        developers.
+      :url: http://t.co/FfEesGlO8d
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/FfEesGlO8d
+            :expanded_url: http://www.rubyinside.com/
+            :display_url: rubyinside.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39959
+      :friends_count: 32
+      :listed_count: 1595
+      :created_at: Thu Aug 14 15:47:59 +0000 2008
+      :favourites_count: 19
+      :utc_offset: -14400
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 4286
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/15851832/1488894012
+      :profile_link_color: BE1E2D
+      :profile_sidebar_border_color: CD2C2C
+      :profile_sidebar_fill_color: FFDADA
+      :profile_text_color: '000000'
+      :profile_use_background_image: false
+      :has_extended_profile: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+      :translator_type: none
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 22
+    :favorite_count: 70
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :created_at: Sat May 13 07:26:05 +0000 2017
+    :id: 863294260833128448
+    :id_str: '863294260833128448'
+    :text: 'Rails Development Without Having Ruby or Rails Installed: https://t.co/eo2IXcDUsN'
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls:
+      - :url: https://t.co/eo2IXcDUsN
+        :expanded_url: https://hackernoon.com/rails-development-without-ruby-or-rails-d41b3ce56249
+        :display_url: hackernoon.com/rails-developm…
+        :indices:
+        - 58
+        - 81
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 15851832
+      :id_str: '15851832'
+      :name: Ruby Inside
+      :screen_name: RubyInside
+      :location: Louth, Lincolnshire, UK
+      :description: The Ruby Inside blog - news, tips and tutorials for Ruby and Rails
+        developers.
+      :url: http://t.co/FfEesGlO8d
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/FfEesGlO8d
+            :expanded_url: http://www.rubyinside.com/
+            :display_url: rubyinside.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39959
+      :friends_count: 32
+      :listed_count: 1595
+      :created_at: Thu Aug 14 15:47:59 +0000 2008
+      :favourites_count: 19
+      :utc_offset: -14400
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 4286
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/15851832/1488894012
+      :profile_link_color: BE1E2D
+      :profile_sidebar_border_color: CD2C2C
+      :profile_sidebar_fill_color: FFDADA
+      :profile_text_color: '000000'
+      :profile_use_background_image: false
+      :has_extended_profile: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+      :translator_type: none
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 4
+    :favorite_count: 19
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :created_at: Fri May 12 15:57:05 +0000 2017
+    :id: 863060471175405570
+    :id_str: '863060471175405570'
+    :text: 'IPv6 as a Metadata Store: https://t.co/hG27EBltoL (The example uses the
+      last octets of an IPv6 address to specify the correct database.)'
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls:
+      - :url: https://t.co/hG27EBltoL
+        :expanded_url: http://blog.donatas.net/blog/2017/05/08/ipv6-metadata/
+        :display_url: blog.donatas.net/blog/2017/05/0…
+        :indices:
+        - 26
+        - 49
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 15851832
+      :id_str: '15851832'
+      :name: Ruby Inside
+      :screen_name: RubyInside
+      :location: Louth, Lincolnshire, UK
+      :description: The Ruby Inside blog - news, tips and tutorials for Ruby and Rails
+        developers.
+      :url: http://t.co/FfEesGlO8d
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/FfEesGlO8d
+            :expanded_url: http://www.rubyinside.com/
+            :display_url: rubyinside.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39959
+      :friends_count: 32
+      :listed_count: 1595
+      :created_at: Thu Aug 14 15:47:59 +0000 2008
+      :favourites_count: 19
+      :utc_offset: -14400
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 4286
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/15851832/1488894012
+      :profile_link_color: BE1E2D
+      :profile_sidebar_border_color: CD2C2C
+      :profile_sidebar_fill_color: FFDADA
+      :profile_text_color: '000000'
+      :profile_use_background_image: false
+      :has_extended_profile: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+      :translator_type: none
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 1
+    :favorite_count: 4
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :created_at: Fri May 12 13:42:00 +0000 2017
+    :id: 863026473954926593
+    :id_str: '863026473954926593'
+    :text: 'RT @RubyInside: Automatic Username Generation in Rails: https://t.co/YIhY010w5p'
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions:
+      - :screen_name: RubyInside
+        :name: Ruby Inside
+        :id: 15851832
+        :id_str: '15851832'
+        :indices:
+        - 3
+        - 14
+      :urls:
+      - :url: https://t.co/YIhY010w5p
+        :expanded_url: https://alexcastano.com/generate-unique-usernames-for-ruby-on-rails/
+        :display_url: alexcastano.com/generate-uniqu…
+        :indices:
+        - 56
+        - 79
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 15851832
+      :id_str: '15851832'
+      :name: Ruby Inside
+      :screen_name: RubyInside
+      :location: Louth, Lincolnshire, UK
+      :description: The Ruby Inside blog - news, tips and tutorials for Ruby and Rails
+        developers.
+      :url: http://t.co/FfEesGlO8d
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/FfEesGlO8d
+            :expanded_url: http://www.rubyinside.com/
+            :display_url: rubyinside.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39959
+      :friends_count: 32
+      :listed_count: 1595
+      :created_at: Thu Aug 14 15:47:59 +0000 2008
+      :favourites_count: 19
+      :utc_offset: -14400
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 4286
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/15851832/1488894012
+      :profile_link_color: BE1E2D
+      :profile_sidebar_border_color: CD2C2C
+      :profile_sidebar_fill_color: FFDADA
+      :profile_text_color: '000000'
+      :profile_use_background_image: false
+      :has_extended_profile: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+      :translator_type: none
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :retweeted_status:
+      :created_at: Thu May 04 13:42:06 +0000 2017
+      :id: 860127398427332608
+      :id_str: '860127398427332608'
+      :text: 'Automatic Username Generation in Rails: https://t.co/YIhY010w5p'
+      :truncated: false
+      :entities:
+        :hashtags: []
+        :symbols: []
+        :user_mentions: []
+        :urls:
+        - :url: https://t.co/YIhY010w5p
+          :expanded_url: https://alexcastano.com/generate-unique-usernames-for-ruby-on-rails/
+          :display_url: alexcastano.com/generate-uniqu…
+          :indices:
+          - 40
+          - 63
+      :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+      :in_reply_to_status_id: 
+      :in_reply_to_status_id_str: 
+      :in_reply_to_user_id: 
+      :in_reply_to_user_id_str: 
+      :in_reply_to_screen_name: 
+      :user:
+        :id: 15851832
+        :id_str: '15851832'
+        :name: Ruby Inside
+        :screen_name: RubyInside
+        :location: Louth, Lincolnshire, UK
+        :description: The Ruby Inside blog - news, tips and tutorials for Ruby and
+          Rails developers.
+        :url: http://t.co/FfEesGlO8d
+        :entities:
+          :url:
+            :urls:
+            - :url: http://t.co/FfEesGlO8d
+              :expanded_url: http://www.rubyinside.com/
+              :display_url: rubyinside.com
+              :indices:
+              - 0
+              - 22
+          :description:
+            :urls: []
+        :protected: false
+        :followers_count: 39959
+        :friends_count: 32
+        :listed_count: 1595
+        :created_at: Thu Aug 14 15:47:59 +0000 2008
+        :favourites_count: 19
+        :utc_offset: -14400
+        :time_zone: Eastern Time (US & Canada)
+        :geo_enabled: false
+        :verified: false
+        :statuses_count: 4286
+        :lang: en
+        :contributors_enabled: false
+        :is_translator: false
+        :is_translation_enabled: false
+        :profile_background_color: FFFFFF
+        :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+        :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+        :profile_background_tile: false
+        :profile_image_url: http://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+        :profile_image_url_https: https://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+        :profile_banner_url: https://pbs.twimg.com/profile_banners/15851832/1488894012
+        :profile_link_color: BE1E2D
+        :profile_sidebar_border_color: CD2C2C
+        :profile_sidebar_fill_color: FFDADA
+        :profile_text_color: '000000'
+        :profile_use_background_image: false
+        :has_extended_profile: false
+        :default_profile: false
+        :default_profile_image: false
+        :following: false
+        :follow_request_sent: false
+        :notifications: false
+        :translator_type: none
+      :geo: 
+      :coordinates: 
+      :place: 
+      :contributors: 
+      :is_quote_status: false
+      :retweet_count: 15
+      :favorite_count: 37
+      :favorited: false
+      :retweeted: false
+      :possibly_sensitive: false
+      :lang: en
+    :is_quote_status: false
+    :retweet_count: 15
+    :favorite_count: 0
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :created_at: Fri May 12 10:53:00 +0000 2017
+    :id: 862983946048606208
+    :id_str: '862983946048606208'
+    :text: 'Rubotnik: Boilerplate Framework to Quickly Build Ruby Facebook Messenger
+      Bots - https://t.co/kV3qBFaxCA'
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls:
+      - :url: https://t.co/kV3qBFaxCA
+        :expanded_url: https://github.com/progapandist/rubotnik-boilerplate
+        :display_url: github.com/progapandist/r…
+        :indices:
+        - 80
+        - 103
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 15851832
+      :id_str: '15851832'
+      :name: Ruby Inside
+      :screen_name: RubyInside
+      :location: Louth, Lincolnshire, UK
+      :description: The Ruby Inside blog - news, tips and tutorials for Ruby and Rails
+        developers.
+      :url: http://t.co/FfEesGlO8d
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/FfEesGlO8d
+            :expanded_url: http://www.rubyinside.com/
+            :display_url: rubyinside.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39959
+      :friends_count: 32
+      :listed_count: 1595
+      :created_at: Thu Aug 14 15:47:59 +0000 2008
+      :favourites_count: 19
+      :utc_offset: -14400
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 4286
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/15851832/1488894012
+      :profile_link_color: BE1E2D
+      :profile_sidebar_border_color: CD2C2C
+      :profile_sidebar_fill_color: FFDADA
+      :profile_text_color: '000000'
+      :profile_use_background_image: false
+      :has_extended_profile: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+      :translator_type: none
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 5
+    :favorite_count: 22
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :created_at: Fri May 12 07:26:01 +0000 2017
+    :id: 862931854059503619
+    :id_str: '862931854059503619'
+    :text: 'The Strange Case of User Enumeration on Heroku: https://t.co/R8QVw1s7hB'
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls:
+      - :url: https://t.co/R8QVw1s7hB
+        :expanded_url: https://hackernoon.com/the-giving-ruby-the-strange-case-of-user-enumeration-on-heroku-not-fixed-1a8296067318
+        :display_url: hackernoon.com/the-giving-rub…
+        :indices:
+        - 48
+        - 71
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 15851832
+      :id_str: '15851832'
+      :name: Ruby Inside
+      :screen_name: RubyInside
+      :location: Louth, Lincolnshire, UK
+      :description: The Ruby Inside blog - news, tips and tutorials for Ruby and Rails
+        developers.
+      :url: http://t.co/FfEesGlO8d
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/FfEesGlO8d
+            :expanded_url: http://www.rubyinside.com/
+            :display_url: rubyinside.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39959
+      :friends_count: 32
+      :listed_count: 1595
+      :created_at: Thu Aug 14 15:47:59 +0000 2008
+      :favourites_count: 19
+      :utc_offset: -14400
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 4286
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/15851832/1488894012
+      :profile_link_color: BE1E2D
+      :profile_sidebar_border_color: CD2C2C
+      :profile_sidebar_fill_color: FFDADA
+      :profile_text_color: '000000'
+      :profile_use_background_image: false
+      :has_extended_profile: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+      :translator_type: none
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 1
+    :favorite_count: 10
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :created_at: Thu May 11 15:57:00 +0000 2017
+    :id: 862698062564790272
+    :id_str: '862698062564790272'
+    :text: 'Benchmarking Crystal vs Ruby: https://t.co/WuX8bZKU4u (Comparing three
+      APIs written in Kemal Crystal, Rails, and Sinatra.)'
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls:
+      - :url: https://t.co/WuX8bZKU4u
+        :expanded_url: https://blog.codeminer42.com/crystal-by-numbers-8a675b0572fc
+        :display_url: blog.codeminer42.com/crystal-by-num…
+        :indices:
+        - 30
+        - 53
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 15851832
+      :id_str: '15851832'
+      :name: Ruby Inside
+      :screen_name: RubyInside
+      :location: Louth, Lincolnshire, UK
+      :description: The Ruby Inside blog - news, tips and tutorials for Ruby and Rails
+        developers.
+      :url: http://t.co/FfEesGlO8d
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/FfEesGlO8d
+            :expanded_url: http://www.rubyinside.com/
+            :display_url: rubyinside.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39959
+      :friends_count: 32
+      :listed_count: 1595
+      :created_at: Thu Aug 14 15:47:59 +0000 2008
+      :favourites_count: 19
+      :utc_offset: -14400
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 4286
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/15851832/1488894012
+      :profile_link_color: BE1E2D
+      :profile_sidebar_border_color: CD2C2C
+      :profile_sidebar_fill_color: FFDADA
+      :profile_text_color: '000000'
+      :profile_use_background_image: false
+      :has_extended_profile: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+      :translator_type: none
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 5
+    :favorite_count: 16
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :created_at: Thu May 11 13:42:04 +0000 2017
+    :id: 862664105609408512
+    :id_str: '862664105609408512'
+    :text: 'Programming with a Love of the Implicit: https://t.co/oc3Uz3Rfdb https://t.co/729G71CkAb'
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls:
+      - :url: https://t.co/oc3Uz3Rfdb
+        :expanded_url: https://m.signalvnoise.com/programming-with-a-love-of-the-implicit-66629bb81ee7
+        :display_url: m.signalvnoise.com/programming-wi…
+        :indices:
+        - 41
+        - 64
+      :media:
+      - :id: 862664103202099200
+        :id_str: '862664103202099200'
+        :indices:
+        - 65
+        - 88
+        :media_url: http://pbs.twimg.com/media/C_jMbmfXkAAqbPc.jpg
+        :media_url_https: https://pbs.twimg.com/media/C_jMbmfXkAAqbPc.jpg
+        :url: https://t.co/729G71CkAb
+        :display_url: pic.twitter.com/729G71CkAb
+        :expanded_url: https://twitter.com/RubyInside/status/862664105609408512/photo/1
+        :type: photo
+        :sizes:
+          :medium:
+            :w: 1200
+            :h: 826
+            :resize: fit
+          :large:
+            :w: 1200
+            :h: 826
+            :resize: fit
+          :thumb:
+            :w: 150
+            :h: 150
+            :resize: crop
+          :small:
+            :w: 680
+            :h: 468
+            :resize: fit
+    :extended_entities:
+      :media:
+      - :id: 862664103202099200
+        :id_str: '862664103202099200'
+        :indices:
+        - 65
+        - 88
+        :media_url: http://pbs.twimg.com/media/C_jMbmfXkAAqbPc.jpg
+        :media_url_https: https://pbs.twimg.com/media/C_jMbmfXkAAqbPc.jpg
+        :url: https://t.co/729G71CkAb
+        :display_url: pic.twitter.com/729G71CkAb
+        :expanded_url: https://twitter.com/RubyInside/status/862664105609408512/photo/1
+        :type: photo
+        :sizes:
+          :medium:
+            :w: 1200
+            :h: 826
+            :resize: fit
+          :large:
+            :w: 1200
+            :h: 826
+            :resize: fit
+          :thumb:
+            :w: 150
+            :h: 150
+            :resize: crop
+          :small:
+            :w: 680
+            :h: 468
+            :resize: fit
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 15851832
+      :id_str: '15851832'
+      :name: Ruby Inside
+      :screen_name: RubyInside
+      :location: Louth, Lincolnshire, UK
+      :description: The Ruby Inside blog - news, tips and tutorials for Ruby and Rails
+        developers.
+      :url: http://t.co/FfEesGlO8d
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/FfEesGlO8d
+            :expanded_url: http://www.rubyinside.com/
+            :display_url: rubyinside.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39959
+      :friends_count: 32
+      :listed_count: 1595
+      :created_at: Thu Aug 14 15:47:59 +0000 2008
+      :favourites_count: 19
+      :utc_offset: -14400
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 4286
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/15851832/1488894012
+      :profile_link_color: BE1E2D
+      :profile_sidebar_border_color: CD2C2C
+      :profile_sidebar_fill_color: FFDADA
+      :profile_text_color: '000000'
+      :profile_use_background_image: false
+      :has_extended_profile: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+      :translator_type: none
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 4
+    :favorite_count: 9
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :created_at: Thu May 11 13:05:08 +0000 2017
+    :id: 862654809572335616
+    :id_str: '862654809572335616'
+    :text: 'Issue #348 of Ruby Weekly is out now. Check your inbox or catch up online:
+      https://t.co/pjrrSTO8A4 https://t.co/aenJef6Oaw'
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls:
+      - :url: https://t.co/pjrrSTO8A4
+        :expanded_url: http://rubyweekly.com/issues/348
+        :display_url: rubyweekly.com/issues/348
+        :indices:
+        - 75
+        - 98
+      :media:
+      - :id: 862654778379259904
+        :id_str: '862654778379259904'
+        :indices:
+        - 99
+        - 122
+        :media_url: http://pbs.twimg.com/media/C_jD800W0AAaqlB.jpg
+        :media_url_https: https://pbs.twimg.com/media/C_jD800W0AAaqlB.jpg
+        :url: https://t.co/aenJef6Oaw
+        :display_url: pic.twitter.com/aenJef6Oaw
+        :expanded_url: https://twitter.com/RubyInside/status/862654809572335616/photo/1
+        :type: photo
+        :sizes:
+          :thumb:
+            :w: 150
+            :h: 150
+            :resize: crop
+          :small:
+            :w: 680
+            :h: 426
+            :resize: fit
+          :medium:
+            :w: 1196
+            :h: 750
+            :resize: fit
+          :large:
+            :w: 1196
+            :h: 750
+            :resize: fit
+    :extended_entities:
+      :media:
+      - :id: 862654778379259904
+        :id_str: '862654778379259904'
+        :indices:
+        - 99
+        - 122
+        :media_url: http://pbs.twimg.com/media/C_jD800W0AAaqlB.jpg
+        :media_url_https: https://pbs.twimg.com/media/C_jD800W0AAaqlB.jpg
+        :url: https://t.co/aenJef6Oaw
+        :display_url: pic.twitter.com/aenJef6Oaw
+        :expanded_url: https://twitter.com/RubyInside/status/862654809572335616/photo/1
+        :type: photo
+        :sizes:
+          :thumb:
+            :w: 150
+            :h: 150
+            :resize: crop
+          :small:
+            :w: 680
+            :h: 426
+            :resize: fit
+          :medium:
+            :w: 1196
+            :h: 750
+            :resize: fit
+          :large:
+            :w: 1196
+            :h: 750
+            :resize: fit
+    :source: <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 15851832
+      :id_str: '15851832'
+      :name: Ruby Inside
+      :screen_name: RubyInside
+      :location: Louth, Lincolnshire, UK
+      :description: The Ruby Inside blog - news, tips and tutorials for Ruby and Rails
+        developers.
+      :url: http://t.co/FfEesGlO8d
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/FfEesGlO8d
+            :expanded_url: http://www.rubyinside.com/
+            :display_url: rubyinside.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39959
+      :friends_count: 32
+      :listed_count: 1595
+      :created_at: Thu Aug 14 15:47:59 +0000 2008
+      :favourites_count: 19
+      :utc_offset: -14400
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 4286
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/15851832/1488894012
+      :profile_link_color: BE1E2D
+      :profile_sidebar_border_color: CD2C2C
+      :profile_sidebar_fill_color: FFDADA
+      :profile_text_color: '000000'
+      :profile_use_background_image: false
+      :has_extended_profile: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+      :translator_type: none
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 8
+    :favorite_count: 13
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :created_at: Thu May 11 10:53:05 +0000 2017
+    :id: 862621578986749952
+    :id_str: '862621578986749952'
+    :text: 'Crafting Better Code Reviews: https://t.co/4JYq486Llg (An essay adapted
+      from a talk originally given at RailsConf 2017.)'
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls:
+      - :url: https://t.co/4JYq486Llg
+        :expanded_url: https://medium.com/@vaidehijoshi/crafting-better-code-reviews-1a5fc00a9312
+        :display_url: medium.com/@vaidehijoshi/…
+        :indices:
+        - 30
+        - 53
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 15851832
+      :id_str: '15851832'
+      :name: Ruby Inside
+      :screen_name: RubyInside
+      :location: Louth, Lincolnshire, UK
+      :description: The Ruby Inside blog - news, tips and tutorials for Ruby and Rails
+        developers.
+      :url: http://t.co/FfEesGlO8d
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/FfEesGlO8d
+            :expanded_url: http://www.rubyinside.com/
+            :display_url: rubyinside.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39959
+      :friends_count: 32
+      :listed_count: 1595
+      :created_at: Thu Aug 14 15:47:59 +0000 2008
+      :favourites_count: 19
+      :utc_offset: -14400
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 4286
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/15851832/1488894012
+      :profile_link_color: BE1E2D
+      :profile_sidebar_border_color: CD2C2C
+      :profile_sidebar_fill_color: FFDADA
+      :profile_text_color: '000000'
+      :profile_use_background_image: false
+      :has_extended_profile: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+      :translator_type: none
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 12
+    :favorite_count: 32
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :created_at: Thu May 11 07:26:03 +0000 2017
+    :id: 862569477304668161
+    :id_str: '862569477304668161'
+    :text: 'Rails: The Good and Bad Parts — https://t.co/R8RegN5CpB'
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls:
+      - :url: https://t.co/R8RegN5CpB
+        :expanded_url: https://rosenfeld.herokuapp.com/en/articles/ruby-rails/2017-05-03-ruby-on-rails-the-bad-and-good-parts
+        :display_url: rosenfeld.herokuapp.com/en/articles/ru…
+        :indices:
+        - 32
+        - 55
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 15851832
+      :id_str: '15851832'
+      :name: Ruby Inside
+      :screen_name: RubyInside
+      :location: Louth, Lincolnshire, UK
+      :description: The Ruby Inside blog - news, tips and tutorials for Ruby and Rails
+        developers.
+      :url: http://t.co/FfEesGlO8d
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/FfEesGlO8d
+            :expanded_url: http://www.rubyinside.com/
+            :display_url: rubyinside.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39959
+      :friends_count: 32
+      :listed_count: 1595
+      :created_at: Thu Aug 14 15:47:59 +0000 2008
+      :favourites_count: 19
+      :utc_offset: -14400
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 4286
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/15851832/1488894012
+      :profile_link_color: BE1E2D
+      :profile_sidebar_border_color: CD2C2C
+      :profile_sidebar_fill_color: FFDADA
+      :profile_text_color: '000000'
+      :profile_use_background_image: false
+      :has_extended_profile: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+      :translator_type: none
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 8
+    :favorite_count: 29
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :created_at: Wed May 10 15:57:01 +0000 2017
+    :id: 862335678125940736
+    :id_str: '862335678125940736'
+    :text: 'Beyond Rails Abstractions: A dive into Database Internals — https://t.co/EATyENHk9y
+      https://t.co/Pz85HghtmA'
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls:
+      - :url: https://t.co/EATyENHk9y
+        :expanded_url: https://www.sitepoint.com/beyond-rails-abstractions-dive-database-internals/
+        :display_url: sitepoint.com/beyond-rails-a…
+        :indices:
+        - 60
+        - 83
+      :media:
+      - :id: 862335675189927936
+        :id_str: '862335675189927936'
+        :indices:
+        - 84
+        - 107
+        :media_url: http://pbs.twimg.com/media/C_ehukzXoAAx35M.jpg
+        :media_url_https: https://pbs.twimg.com/media/C_ehukzXoAAx35M.jpg
+        :url: https://t.co/Pz85HghtmA
+        :display_url: pic.twitter.com/Pz85HghtmA
+        :expanded_url: https://twitter.com/RubyInside/status/862335678125940736/photo/1
+        :type: photo
+        :sizes:
+          :thumb:
+            :w: 150
+            :h: 150
+            :resize: crop
+          :small:
+            :w: 680
+            :h: 266
+            :resize: fit
+          :medium:
+            :w: 1000
+            :h: 391
+            :resize: fit
+          :large:
+            :w: 1000
+            :h: 391
+            :resize: fit
+    :extended_entities:
+      :media:
+      - :id: 862335675189927936
+        :id_str: '862335675189927936'
+        :indices:
+        - 84
+        - 107
+        :media_url: http://pbs.twimg.com/media/C_ehukzXoAAx35M.jpg
+        :media_url_https: https://pbs.twimg.com/media/C_ehukzXoAAx35M.jpg
+        :url: https://t.co/Pz85HghtmA
+        :display_url: pic.twitter.com/Pz85HghtmA
+        :expanded_url: https://twitter.com/RubyInside/status/862335678125940736/photo/1
+        :type: photo
+        :sizes:
+          :thumb:
+            :w: 150
+            :h: 150
+            :resize: crop
+          :small:
+            :w: 680
+            :h: 266
+            :resize: fit
+          :medium:
+            :w: 1000
+            :h: 391
+            :resize: fit
+          :large:
+            :w: 1000
+            :h: 391
+            :resize: fit
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 15851832
+      :id_str: '15851832'
+      :name: Ruby Inside
+      :screen_name: RubyInside
+      :location: Louth, Lincolnshire, UK
+      :description: The Ruby Inside blog - news, tips and tutorials for Ruby and Rails
+        developers.
+      :url: http://t.co/FfEesGlO8d
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/FfEesGlO8d
+            :expanded_url: http://www.rubyinside.com/
+            :display_url: rubyinside.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39959
+      :friends_count: 32
+      :listed_count: 1595
+      :created_at: Thu Aug 14 15:47:59 +0000 2008
+      :favourites_count: 19
+      :utc_offset: -14400
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 4286
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/15851832/1488894012
+      :profile_link_color: BE1E2D
+      :profile_sidebar_border_color: CD2C2C
+      :profile_sidebar_fill_color: FFDADA
+      :profile_text_color: '000000'
+      :profile_use_background_image: false
+      :has_extended_profile: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+      :translator_type: none
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 4
+    :favorite_count: 19
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :created_at: Wed May 10 13:42:08 +0000 2017
+    :id: 862301733355212801
+    :id_str: '862301733355212801'
+    :text: 'The fastest way to generate a Heap Dump on Heroku: https://t.co/lot1z9uxZV'
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls:
+      - :url: https://t.co/lot1z9uxZV
+        :expanded_url: https://www.schneems.com/2017/05/01/the-fastest-way-to-generate-a-heap-dump-on-heroku/
+        :display_url: schneems.com/2017/05/01/the…
+        :indices:
+        - 51
+        - 74
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 15851832
+      :id_str: '15851832'
+      :name: Ruby Inside
+      :screen_name: RubyInside
+      :location: Louth, Lincolnshire, UK
+      :description: The Ruby Inside blog - news, tips and tutorials for Ruby and Rails
+        developers.
+      :url: http://t.co/FfEesGlO8d
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/FfEesGlO8d
+            :expanded_url: http://www.rubyinside.com/
+            :display_url: rubyinside.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39959
+      :friends_count: 32
+      :listed_count: 1595
+      :created_at: Thu Aug 14 15:47:59 +0000 2008
+      :favourites_count: 19
+      :utc_offset: -14400
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 4286
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/15851832/1488894012
+      :profile_link_color: BE1E2D
+      :profile_sidebar_border_color: CD2C2C
+      :profile_sidebar_fill_color: FFDADA
+      :profile_text_color: '000000'
+      :profile_use_background_image: false
+      :has_extended_profile: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+      :translator_type: none
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 4
+    :favorite_count: 4
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :created_at: Wed May 10 10:53:18 +0000 2017
+    :id: 862259245869387776
+    :id_str: '862259245869387776'
+    :text: 'Over 100 useful Machine Learning with Ruby links: https://t.co/uvftiZUfId
+      https://t.co/CGNWIZ81TL'
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls:
+      - :url: https://t.co/uvftiZUfId
+        :expanded_url: https://github.com/arbox/machine-learning-with-ruby
+        :display_url: github.com/arbox/machine-…
+        :indices:
+        - 50
+        - 73
+      :media:
+      - :id: 862259243805573120
+        :id_str: '862259243805573120'
+        :indices:
+        - 74
+        - 97
+        :media_url: http://pbs.twimg.com/media/C_dcNrtUAAAbwoF.jpg
+        :media_url_https: https://pbs.twimg.com/media/C_dcNrtUAAAbwoF.jpg
+        :url: https://t.co/CGNWIZ81TL
+        :display_url: pic.twitter.com/CGNWIZ81TL
+        :expanded_url: https://twitter.com/RubyInside/status/862259245869387776/photo/1
+        :type: photo
+        :sizes:
+          :large:
+            :w: 995
+            :h: 996
+            :resize: fit
+          :small:
+            :w: 679
+            :h: 680
+            :resize: fit
+          :medium:
+            :w: 995
+            :h: 996
+            :resize: fit
+          :thumb:
+            :w: 150
+            :h: 150
+            :resize: crop
+    :extended_entities:
+      :media:
+      - :id: 862259243805573120
+        :id_str: '862259243805573120'
+        :indices:
+        - 74
+        - 97
+        :media_url: http://pbs.twimg.com/media/C_dcNrtUAAAbwoF.jpg
+        :media_url_https: https://pbs.twimg.com/media/C_dcNrtUAAAbwoF.jpg
+        :url: https://t.co/CGNWIZ81TL
+        :display_url: pic.twitter.com/CGNWIZ81TL
+        :expanded_url: https://twitter.com/RubyInside/status/862259245869387776/photo/1
+        :type: photo
+        :sizes:
+          :large:
+            :w: 995
+            :h: 996
+            :resize: fit
+          :small:
+            :w: 679
+            :h: 680
+            :resize: fit
+          :medium:
+            :w: 995
+            :h: 996
+            :resize: fit
+          :thumb:
+            :w: 150
+            :h: 150
+            :resize: crop
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 15851832
+      :id_str: '15851832'
+      :name: Ruby Inside
+      :screen_name: RubyInside
+      :location: Louth, Lincolnshire, UK
+      :description: The Ruby Inside blog - news, tips and tutorials for Ruby and Rails
+        developers.
+      :url: http://t.co/FfEesGlO8d
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/FfEesGlO8d
+            :expanded_url: http://www.rubyinside.com/
+            :display_url: rubyinside.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39959
+      :friends_count: 32
+      :listed_count: 1595
+      :created_at: Thu Aug 14 15:47:59 +0000 2008
+      :favourites_count: 19
+      :utc_offset: -14400
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 4286
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/15851832/1488894012
+      :profile_link_color: BE1E2D
+      :profile_sidebar_border_color: CD2C2C
+      :profile_sidebar_fill_color: FFDADA
+      :profile_text_color: '000000'
+      :profile_use_background_image: false
+      :has_extended_profile: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+      :translator_type: none
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 31
+    :favorite_count: 79
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en
+- !ruby/object:Twitter::Tweet
+  attrs:
+    :created_at: Wed May 10 07:26:00 +0000 2017
+    :id: 862207077162385408
+    :id_str: '862207077162385408'
+    :text: 'Quick Tip: ActiveRecord::Relation#count Handles Blocks in Rails 5.1 -
+      https://t.co/gaUCYnZUoh'
+    :truncated: false
+    :entities:
+      :hashtags: []
+      :symbols: []
+      :user_mentions: []
+      :urls:
+      - :url: https://t.co/gaUCYnZUoh
+        :expanded_url: http://blog.bigbinary.com/2017/05/01/forwarding-active-record-relation-count-to-enumerable-count.html
+        :display_url: blog.bigbinary.com/2017/05/01/for…
+        :indices:
+        - 70
+        - 93
+    :source: <a href="http://bufferapp.com" rel="nofollow">Buffer</a>
+    :in_reply_to_status_id: 
+    :in_reply_to_status_id_str: 
+    :in_reply_to_user_id: 
+    :in_reply_to_user_id_str: 
+    :in_reply_to_screen_name: 
+    :user:
+      :id: 15851832
+      :id_str: '15851832'
+      :name: Ruby Inside
+      :screen_name: RubyInside
+      :location: Louth, Lincolnshire, UK
+      :description: The Ruby Inside blog - news, tips and tutorials for Ruby and Rails
+        developers.
+      :url: http://t.co/FfEesGlO8d
+      :entities:
+        :url:
+          :urls:
+          - :url: http://t.co/FfEesGlO8d
+            :expanded_url: http://www.rubyinside.com/
+            :display_url: rubyinside.com
+            :indices:
+            - 0
+            - 22
+        :description:
+          :urls: []
+      :protected: false
+      :followers_count: 39959
+      :friends_count: 32
+      :listed_count: 1595
+      :created_at: Thu Aug 14 15:47:59 +0000 2008
+      :favourites_count: 19
+      :utc_offset: -14400
+      :time_zone: Eastern Time (US & Canada)
+      :geo_enabled: false
+      :verified: false
+      :statuses_count: 4286
+      :lang: en
+      :contributors_enabled: false
+      :is_translator: false
+      :is_translation_enabled: false
+      :profile_background_color: FFFFFF
+      :profile_background_image_url: http://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme1/bg.png
+      :profile_background_tile: false
+      :profile_image_url: http://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_image_url_https: https://pbs.twimg.com/profile_images/839075343717781504/mJFLPLJs_normal.jpg
+      :profile_banner_url: https://pbs.twimg.com/profile_banners/15851832/1488894012
+      :profile_link_color: BE1E2D
+      :profile_sidebar_border_color: CD2C2C
+      :profile_sidebar_fill_color: FFDADA
+      :profile_text_color: '000000'
+      :profile_use_background_image: false
+      :has_extended_profile: false
+      :default_profile: false
+      :default_profile_image: false
+      :following: false
+      :follow_request_sent: false
+      :notifications: false
+      :translator_type: none
+    :geo: 
+    :coordinates: 
+    :place: 
+    :contributors: 
+    :is_quote_status: false
+    :retweet_count: 3
+    :favorite_count: 19
+    :favorited: false
+    :retweeted: false
+    :possibly_sensitive: false
+    :lang: en

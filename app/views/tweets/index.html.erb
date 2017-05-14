@@ -1,0 +1,7 @@
+<h1>Tous les tweets</h1>
+
+<%- @tweets.each do |tweet| -%>
+  <section>
+    <p><%= tweet.text %></p>
+  </section>
+<% end %>
