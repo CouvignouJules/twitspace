@@ -1,7 +1,9 @@
 <h1>Tweets :</h1>
 
 <%- @tweets.each do |tweet| -%>
-  <section>
+  <div style="border: 1px solid #B4BCDB; margin: 10px;">
+    <p><img src=<%= tweet.photo %> />&nbsp;<strong><%= tweet.username %></strong></p>
     <p><%= tweet.text %></p>
-  </section>
+    <% if tweet.media != "#" %> <img width="350px" src=<%= tweet.media %> /> <% end %>
+  </div>
 <% end %>

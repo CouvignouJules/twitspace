@@ -17,6 +17,11 @@ client = Twitter::REST::Client.new do |config|
   config.access_token_secret = "7TBfyPTftkP1okWxzFINGnCJ6Xit4jF82EK8FjHQ3skjO"
 end
 
-tweets = client.user_timeline('ISSCommunity', count: 20)
+tweets = client.user_timeline('https://twitter.com/isscommunity', count: 100)
 
-tweet = Tweet.create!(text: tweets[0].text)
+tweets.each do |tweet|
+    Tweet.create!(text: tweet.full_text, 
+    			  photo: tweet.user.profile_image_url,
+    			  username: tweet.user.name,
+    			  media: defined?(tweet.media[0].media_url) ? tweet.media[0].media_url : "#") #TODO: Mettre un tableau dans la BDD et non pas que le 1er élément
+end
