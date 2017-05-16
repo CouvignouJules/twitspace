@@ -17,11 +17,13 @@ client = Twitter::REST::Client.new do |config|
   config.access_token_secret = ENV.fetch("TWITTER_ACCES_TOKEN_SECRET")
 end
 
-tweets = client.user_timeline('https://twitter.com/ISSCommunity', count: 100)
+tweets = client.user_timeline('https://twitter.com/Thom_astro', count: 100)
 
 tweets.each do |tweet|
-    Tweet.create!(text: tweet.full_text, 
-    			  photo: tweet.user.profile_image_url,
-    			  username: tweet.user.name,
-    			  media: defined?(tweet.media[0].media_url) ? tweet.media[0].media_url : "#")
-end
+	if tweet.media.present?
+	    Tweet.create!(text: tweet.full_text, 
+	    			  photo: tweet.user.profile_image_url,
+	    			  username: tweet.user.name,
+	    			  media:tweet.media[0].media_url)
+	end #if
+end #each
