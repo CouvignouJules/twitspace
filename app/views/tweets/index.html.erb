@@ -1,9 +1,7 @@
 <h1>Tweets :</h1>
 
-<%- @tweets.each do |tweet| -%>
+<%- @tweets.each do |tweet| if defined?(tweet.media[0].media_url)-%>
   <div class="tweets">
-    <p><img src=<%= tweet.user.profile_image_url %> />&nbsp;<strong><%= tweet.user.name %></strong></p>
-    <p><%= tweet.text %></p>
-    <% if defined?(tweet.media[0].media_url) %> <img width="350px" src=<%= tweet.media[0].media_url %> /> <% end %>
+    <img width="350px" src=<%= tweet.media[0].media_url %> /> <% end %>
   </div>
 <% end %>
