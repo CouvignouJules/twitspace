@@ -1,0 +1,17 @@
+<div class="comments">
+  <% if @restaurant.comments.any? %>
+    <h2>Commentaires:</h2>
+
+    <% @restaurant.comments.each do |comment| %>
+      <%= render partial: "comments/show", locals: { comment: comment } %>
+    <% end %>
+  <% end %>
+</div>
+
+<div class="comment-instruction">
+  <% if user_signed_in? %>
+    <%= render partial: "comments/form", locals: { restaurant: @restaurant, comment: @new_comment } %>
+  <% else %>
+    <p>Vous devez être connecté.e pour laisser un commentaire.</p>
+  <% end %>
+</div>
