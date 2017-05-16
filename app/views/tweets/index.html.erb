@@ -1,7 +1,7 @@
 <h1>Tweets :</h1>
 
-<%- @tweets.each do |tweet| if defined?(tweet.media[0].media_url)-%>
+<%- @tweets.each do |tweet| if (tweet.media != '#') -%>
   <div class="tweets">
-    <img width="350px" src=<%= tweet.media[0].media_url %> /> <% end %>
+	    <%= link_to(image_tag(tweet.media, width: '350'), tweet_path(tweet)) %> <% end %>
   </div>
 <% end %>

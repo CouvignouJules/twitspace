@@ -1,17 +1,14 @@
-<div class="comments">
-  <% if @restaurant.comments.any? %>
-    <h2>Commentaires:</h2>
+<div class="tweets">
+	<h1><%= image_tag(@tweet.photo) %>&nbsp;<strong><%= @tweet.username %></h1>
 
-    <% @restaurant.comments.each do |comment| %>
-      <%= render partial: "comments/show", locals: { comment: comment } %>
-    <% end %>
-  <% end %>
-</div>
+	<%= render partial: "tweets/button_list" %>
 
-<div class="comment-instruction">
-  <% if user_signed_in? %>
-    <%= render partial: "comments/form", locals: { restaurant: @restaurant, comment: @new_comment } %>
-  <% else %>
-    <p>Vous devez être connecté.e pour laisser un commentaire.</p>
-  <% end %>
+	<section class="row tweet">
+    <div class="col-sm-4">
+      <p><%= @tweet.text %></p>
+    </div>
+    <div class="col-sm-8">
+      <img width="500px" src=<%= @tweet.media %> />
+    </div>
+  </section>
 </div>

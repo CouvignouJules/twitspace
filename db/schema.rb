@@ -41,7 +41,6 @@ ActiveRecord::Schema.define(version: 20170516120058) do
   end
 
   create_table "tweets", force: :cascade do |t|
-    t.string   "name"
     t.string   "text"
     t.string   "photo"
     t.string   "username"
