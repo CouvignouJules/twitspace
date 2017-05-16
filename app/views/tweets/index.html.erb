@@ -1,8 +1,7 @@
 <h1>Tweets :</h1>
 <%= paginate @tweets %>
 
+<br />
 <%- @tweets.each do |tweet| if (tweet.media != '#') -%>
-  <div class="tweets">
-	    <%= link_to(image_tag(tweet.media, width: '350'), tweet_path(tweet)) %> <% end %>
-  </div>
+	<%= link_to(image_tag(tweet.media), tweet_path(tweet), :class => "tweets") %> <% end %>
 <% end %>
