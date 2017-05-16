@@ -3,9 +3,11 @@ class TweetsController < ApplicationController
   	  	@tweet = Tweet.find(params[:id])
   	end
 	def index
- 	   	@tweets = Tweet.all
+ 	   	@tweets = Tweet.page(params[:page])
+ 	   	#@tweets = Tweet.all
+
  	   	#require 'twitter'
- 	   	
+
 		#client = Twitter::REST::Client.new do |config|
 		#  config.consumer_key        = "aiyzc2NDhAYsM32IWAJOjdFZy"
 		#  config.consumer_secret     = "CS6liN5XVFakOZupKlOsL23CuxSMlaH5KIhXig6P3MLTwY7kDj"
