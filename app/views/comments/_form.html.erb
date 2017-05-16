@@ -1,0 +1,5 @@
+<h4>Ajoutez votre commentaire :</h4>
+<%= simple_form_for([restaurant, comment]) do |f| %>
+  <%= f.input :text, label: false %>
+  <%= f.button :submit %>
+<% end %>
