@@ -1,0 +1,14 @@
+<div class="tweets">
+	<h1><%= image_tag(@tweet.photo) %>&nbsp;<strong><%= @tweet.username %></h1>
+
+	<%= render partial: "tweets/button_list" %>
+
+	<section class="row tweet">
+    <div class="col-sm-4">
+      <p><%= @tweet.text %></p>
+    </div>
+    <div class="col-sm-8">
+      <img width="500px" src=<%= @tweet.media %> />
+    </div>
+  </section>
+</div>
