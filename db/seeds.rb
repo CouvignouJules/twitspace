@@ -18,12 +18,15 @@ client = Twitter::REST::Client.new do |config|
 end
 
 tweets = client.user_timeline('https://twitter.com/Thom_astro', count: 100)
+id = 0;
 
 tweets.each do |tweet|
 	if tweet.media.present?
-	    Tweet.create!(text: tweet.full_text, 
+	    Tweet.create!(id: id,
+	    			  text: tweet.full_text, 
 	    			  photo: tweet.user.profile_image_url,
 	    			  username: tweet.user.name,
 	    			  media:tweet.media[0].media_url)
+	id += 1
 	end #if
 end #each
