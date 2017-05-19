@@ -11,4 +11,22 @@
       <img width="500px" src=<%= @tweet.media %> />
     </div>
   </section>
+
+  <div class="comments">
+    <% if @tweet.comments.any? %>
+      <h2>Commentaires :</h2>
+
+      <% @tweet.comments.each do |comment| %>
+        <%= render partial: "comments/show", locals: { comment: comment } %>
+      <% end %>
+    <% end %>
+  </div>
+
+  <div class="comment-instruction">
+    <% if user_signed_in? %>
+      <%= render partial: "comments/form", locals: { tweet: @tweet, comment: @new_comment } %>
+    <% else %>
+      <p>Vous devez être connecté(e) pour laisser un commentaire.</p>
+    <% end %>
+  </div>
 </div>
