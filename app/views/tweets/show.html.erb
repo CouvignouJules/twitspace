@@ -1,3 +1,4 @@
+<%= render :partial => "shared/navbar.erb" %>
 <div class="tweets">
 	<h1><%= image_tag(@tweet.photo) %>&nbsp;<strong><%= @tweet.username %></h1>
 
@@ -12,6 +13,14 @@
     </div>
   </section>
 
+  <div class="comment-instruction">
+    <% if user_signed_in? %>
+      <%= render partial: "comments/form", locals: { tweet: @tweet, comment: @new_comment } %>
+    <% else %>
+      <p>Vous devez être connecté(e) pour laisser un commentaire.</p>
+    <% end %>
+  </div>
+
   <div class="comments">
     <% if @tweet.comments.any? %>
       <h2>Commentaires :</h2>
@@ -19,14 +28,6 @@
       <% @tweet.comments.each do |comment| %>
         <%= render partial: "comments/show", locals: { comment: comment } %>
       <% end %>
-    <% end %>
-  </div>
-
-  <div class="comment-instruction">
-    <% if user_signed_in? %>
-      <%= render partial: "comments/form", locals: { tweet: @tweet, comment: @new_comment } %>
-    <% else %>
-      <p>Vous devez être connecté(e) pour laisser un commentaire.</p>
     <% end %>
   </div>
 </div>
