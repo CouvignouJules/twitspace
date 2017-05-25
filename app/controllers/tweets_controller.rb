@@ -9,8 +9,10 @@ class TweetsController < ApplicationController
  	end
  	def like
  		current_user.like!(Tweet.find(params[:id]))
+        redirect_to :back
  	end
  	def unlike
  		current_user.unlike!(Tweet.find(params[:id]))
+ 		redirect_to :back
  	end
 end
