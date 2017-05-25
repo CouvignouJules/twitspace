@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   resources :tweets, only: [:show, :new, :create] do
   	resources :comments, only: [:create]
   end
+  patch 'tweets/like/:id' => 'tweets#like', as: :tweets_like
+  patch 'tweets/unlike/:id' => 'tweets#unlike', as: :tweets_unlike
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   mount Attachinary::Engine => "/attachinary"
 
