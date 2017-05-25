@@ -10,4 +10,7 @@ Rails.application.routes.draw do
 
   #Index où se situeront les photos
   root to: "tweets#index"
+  namespace :api_v1 do
+    resources :tweets, only: [:index, :show, :create]
+  end
 end
