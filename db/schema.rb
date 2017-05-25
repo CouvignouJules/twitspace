@@ -75,8 +75,9 @@ ActiveRecord::Schema.define(version: 20170525063724) do
     t.string   "photo"
     t.string   "username"
     t.string   "media"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.integer  "likers_count", default: 0
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
   end
 
   create_table "users", force: :cascade do |t|
