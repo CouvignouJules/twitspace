@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   resources :like
   resources :comments
   devise_for :users
+  resources :users, :only => [:show]
   resources :tweets, only: [:show, :new, :create] do
   	resources :comments, only: [:create]
   end
