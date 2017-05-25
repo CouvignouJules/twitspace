@@ -11,6 +11,18 @@
     <div class="col-sm-8">
       <img width="500px" src=<%= @tweet.media %> />
     </div>
+    <div class="like">
+      <% if user_signed_in? %>
+        <% if @tweet.liked_by?(current_user) %>
+          <center><input type="button" value="unlike" onclick="current_user.unlike!(@tweet)"></center>
+        <% else %>
+          <center><input type="button" value="like" onclick="current_user.like!(@tweet)"></center>
+        <% end %>
+      <% else %>
+        <p>Vous devez être connecté(e) pour liker le tweet.</p>
+      <% end %>
+    </div>
+
   </section>
 
   <div class="comment-instruction">

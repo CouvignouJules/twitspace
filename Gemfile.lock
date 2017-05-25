@@ -215,6 +215,8 @@ GEM
       activemodel (> 4, < 5.1)
     simple_oauth (0.3.1)
     slop (3.6.0)
+    socialization (1.2.0)
+      activerecord
     spring (2.0.1)
       activesupport (>= 4.2)
     spring-watcher-listen (2.0.1)
@@ -287,6 +289,7 @@ DEPENDENCIES
   rails (~> 5.0.2)
   sass-rails (~> 5.0)
   simple_form
+  socialization
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)

@@ -1,14 +1,7 @@
 class Tweet < ApplicationRecord
+	acts_as_likeable
+	
 	has_many :comments
-	has_many :votes
-
-	def like(user)
-	  votes << Vote.new(user: user)
-	end
-
-	def unlike(user)
-	  votes.where(user_id: user.id).first.destroy
-	end
 
 	validates :text, presence: true
 	validates :username, presence: true
