@@ -1,4 +1,6 @@
 <%= render :partial => "shared/navbar.erb" %>
-<div class="tweets">
-	<h1>Vos tweets favoris :</h1>
-</div>
+<h1>Vos tweets favoris :</h1>
+
+<%- @tweets.each do | tweet | if tweet.liked_by?(current_user) -%>
+	<%= link_to(image_tag(tweet.media), tweet_path(tweet), :class => "tweets") %> <% end %>
+<% end %>
