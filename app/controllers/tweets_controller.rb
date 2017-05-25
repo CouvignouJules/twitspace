@@ -4,7 +4,7 @@ class TweetsController < ApplicationController
   	  	@new_comment = Comment.new
   	end
 	def index
- 	   	@tweets = Tweet.page(params[:page]).per(10)
+ 	   	@tweets = Tweet.order(:id).page(params[:page]).per(10)
  	   	#@tweets = Tweet.all
  	end
  	def like
