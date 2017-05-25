@@ -1,7 +1,7 @@
 class ApiV1::LikesController < ActionController::Base
 	acts_as_token_authentication_handler_for User
 
-	#On peut liker un tweet via l'api : si l'utilisateur a déjà liker le tweet, ça le unlike
+	#On peut liker un tweet via l'api : si l'utilisateur a déjà liké le tweet, ça le unlike
 	def create
 	  	@tweet = Tweet.find(params[:tweet][:id])
 		
