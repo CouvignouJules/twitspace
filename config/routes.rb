@@ -12,5 +12,7 @@ Rails.application.routes.draw do
   root to: "tweets#index"
   namespace :api_v1 do
     resources :tweets, only: [:index, :show, :create]
+    resources :comments, only: [:create]
+    resources :likes, only: [:create]
   end
 end
