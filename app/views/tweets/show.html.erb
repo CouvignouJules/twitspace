@@ -12,8 +12,8 @@
       <img width="500px" src=<%= @tweet.media %> />
     </div>
     <div class="like">
-      <center>Nombre de likes : <%= @tweet.likers_count %></center>
       <% if user_signed_in? %>
+        <center>Nombre de likes : <%= @tweet.likers_count %></center>
         <% if @tweet.liked_by?(current_user) %>
           <center><%= link_to("unlike", tweets_unlike_path(@tweet), method: :patch) %></center>
         <% else %>
