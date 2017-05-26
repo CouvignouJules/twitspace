@@ -1,0 +1,10 @@
+<%= render :partial => "shared/navbar.erb" %>
+<h1>Les tweets les plus populaires :</h1>
+
+<!-- Si le nombre de likes est 0, le tweet ne sera pas affiché, même pas après les autres.
+	 Classement décroissant des tweets likés au moins une fois -->
+
+<%- @tweets.sort_by{ | tweet | tweet.likers_count }.reverse.each do | tweet | if tweet.likers_count != 0 -%>
+	<%= link_to(image_tag(tweet.media), tweet_path(tweet), :class => "tweets") %> <% end %>
+<% end %>
+

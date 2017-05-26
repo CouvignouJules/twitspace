@@ -17,7 +17,7 @@ client = Twitter::REST::Client.new do |config|
   config.access_token_secret = ENV.fetch("TWITTER_ACCES_TOKEN_SECRET")
 end
 
-tweets = client.user_timeline('https://twitter.com/Thom_astro', count: 1000)
+tweets = client.user_timeline('https://twitter.com/Thom_astro', count: 100)
 id = 0;
 
 tweets.each do |tweet|

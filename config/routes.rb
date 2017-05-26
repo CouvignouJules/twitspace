@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources :comments
   devise_for :users
   resources :users, :only => [:show]
+  get "app/views/populars/show.html.erb", to: "populars#show", as: "populars"
   resources :tweets, only: [:show, :new, :create] do
   	resources :comments, only: [:create]
   end
