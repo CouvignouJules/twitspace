@@ -1,19 +1,31 @@
 <%= render :partial => "shared/navbar.erb" %>
-<h1>Tweets les plus récents :</h1>
-<%= paginate @tweets %>
-
-<br />
-
-<%- @tweets.each do |tweet| if (tweet.media != '#') -%>
-	<%= link_to(image_tag(tweet.media), tweet_path(tweet), :class => "tweets") %> <% end %>
-<% end %>
-
-<br /><br /><br />
-<h1>Tweets par popularité :</h1>
-<%= paginate @tweets_pop, param_name: "page_pop" %>
-
-<br />
-
-<%- @tweets_pop.each do |tweet| if (tweet.media != '#') -%>
-	<%= link_to(image_tag(tweet.media), tweet_path(tweet), :class => "tweets") %> <% end %>
-<% end %>
+<div class="container-background">
+</div>
+<div class="container">
+	<div id="new-tweets">
+		<h1 class="museo title-tweets">Tweets les plus récents</h1>
+		<center><%= paginate @tweets %></center>
+		
+		<br />
+		<center>
+			<%- @tweets.each do |tweet| if (tweet.media != '#') -%>
+				<%= link_to(image_tag(tweet.media), tweet_path(tweet), :class => "tweets") %> <% end %>
+			<% end %>
+		</center>
+		<center><%= paginate @tweets %></center>
+	</div>
+	
+	<br /><br /><br />
+	<div id="pop-tweets">
+		<h1 class="museo title-tweets">Tweets par popularité</h1>
+		<center><%= paginate @tweets_pop, param_name: "page_pop" %></center>
+		
+		<br />
+		<center>
+			<%- @tweets_pop.each do |tweet| if (tweet.media != '#') -%>
+				<%= link_to(image_tag(tweet.media), tweet_path(tweet), :class => "tweets") %> <% end %>
+			<% end %>
+		</center>
+		<center><%= paginate @tweets_pop, param_name: "page_pop" %></center>
+	</div>
+</div>

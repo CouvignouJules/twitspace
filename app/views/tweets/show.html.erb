@@ -1,46 +1,49 @@
 <%= render :partial => "shared/navbar.erb" %>
-<div class="tweets">
-	<h1><%= image_tag(@tweet.photo) %>&nbsp;<strong><%= @tweet.username %></h1>
-
-	<%= render partial: "tweets/button_list" %>
-
-	<section class="row tweet">
-    <div class="col-sm-4">
-      <p><%= @tweet.text %></p>
-    </div>
-    <div class="col-sm-8">
-      <img width="500px" src=<%= @tweet.media %> />
-    </div>
-    <div class="like">
-      <% if user_signed_in? %>
-        <center>Nombre de likes : <%= @tweet.likers_count %></center>
-        <% if @tweet.liked_by?(current_user) %>
-          <center><%= link_to("unlike", tweets_unlike_path(@tweet), method: :patch) %></center>
+<div class="container-background">
+</div>
+<div class="container">
+    <%= render partial: "tweets/button_list" %>
+  <div class="tweets museo tweet-displayed">
+  	<h1><%= image_tag(@tweet.photo) %>&nbsp;<strong><%= @tweet.username %></h1>
+    
+  	<section class="row tweet">
+      <div class="col-sm-4">
+        <p><%= @tweet.text %></p>
+      </div>
+      <div class="col-sm-8">
+        <img width="50%" src=<%= @tweet.media %> />
+      </div>
+      <div class="like">
+        <span class="likes">Nombre de likes : <%= @tweet.likers_count %></span><br />
+        <% if user_signed_in? %>
+          <% if @tweet.liked_by?(current_user) %>
+            <%= link_to("unlike", tweets_unlike_path(@tweet), method: :patch, :class => "btn-likes") %>
+          <% else %>
+            <%= link_to("like", tweets_like_path(@tweet), method: :patch, :class => "btn-likes") %>
+          <% end %>
         <% else %>
-          <center><%= link_to("like", tweets_like_path(@tweet), method: :patch) %></center>
+          <p>Vous devez être connecté(e) pour liker le tweet.</p>
         <% end %>
+      </div><br />
+  
+    </section>
+  
+    <div class="comment-instruction">
+      <% if user_signed_in? %>
+        <%= render partial: "comments/form", locals: { tweet: @tweet, comment: @new_comment } %>
       <% else %>
-        <p>Vous devez être connecté(e) pour liker le tweet.</p>
+        <p>Vous devez être connecté(e) pour laisser un commentaire.</p>
       <% end %>
     </div>
-
-  </section>
-
-  <div class="comment-instruction">
-    <% if user_signed_in? %>
-      <%= render partial: "comments/form", locals: { tweet: @tweet, comment: @new_comment } %>
-    <% else %>
-      <p>Vous devez être connecté(e) pour laisser un commentaire.</p>
-    <% end %>
-  </div>
-
-  <div class="comments">
-    <% if @tweet.comments.any? %>
-      <h2>Commentaires :</h2>
-
-      <% @tweet.comments.each do |comment| %>
-        <%= render partial: "comments/show", locals: { comment: comment } %>
+  
+    <div class="comments">
+      <% if @tweet.comments.any? %>
+        <h2>Commentaires :</h2>
+  
+        <% @tweet.comments.each do |comment| %>
+          <%= render partial: "comments/show", locals: { comment: comment } %>
+        <% end %>
       <% end %>
-    <% end %>
+    </div>
   </div>
 </div>

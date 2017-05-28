@@ -1,7 +1,8 @@
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  <h3 class="rainbow"><a class="no-style" href="/">Twitspace</a></h3>
   <ul class="nav navbar-nav navbar-right">
     <% if user_signed_in? %>
-      <li><a href="#">Bienvenue, <%= current_user.email %></a></li>
+      <li><a href="/">Bienvenue, <%= current_user.email %></a></li>
       <li><%= link_to "Favoris", current_user %></li>
       <li>
         <%= link_to destroy_user_session_path, method: :delete do %>

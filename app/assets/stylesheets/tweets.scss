@@ -1,16 +1,39 @@
-a.tweets {
-	margin: 10px;
+@font-face {
+  font-family: "Rainbow";
+  src: url("fonts/Dancing in the Rainbow.ttf");
 }
 
-a.tweets img {
-	width: 350px;
+@font-face {
+  font-family: "Museo";
+  src: url("fonts/MuseoSans_500.otf");
 }
 
-a.tweets img:hover {
-	opacity: 0.7;
-	filter:alpha(opacity=50); 
-	transition: all 0.2s ease 0s;
-	transform: scale(1.10);
+.rainbow {
+    font-family: "Rainbow", serif;
+}
+
+.museo {
+    font-family: "Museo", serif;
+}
+
+.no-style {
+    text-decoration: none;
+    color: white; 
+}
+
+.no-style:hover {
+    text-decoration: none;
+    color: white; 
+}
+
+.no-style:active {
+    text-decoration: none;
+    color: white; 
+}
+
+.title-tweets {
+    opacity: 0.7;
+    font-style: italic;
 }
 
 .pagination a, .pagination span.current, .pagination span.gap {
@@ -30,28 +53,170 @@ a.tweets img:hover {
 .pagination {
     border-left: 1px solid #ddd;
     .first {
-        padding : 0;
+        padding: 0;
         float: none;
         border: none;
     }
     .prev {
-        padding : 0;
+        padding: 0;
         float: none;
         border: none;
     }
     .page {
-        padding : 0;
+        padding: 0;
         float: none;
         border: none;
     }
     .next {
-        padding : 0;
+        padding: 0;
         float: none;
         border: none;
     }
     .last {
-        padding : 0;
+        padding: 0;
         float: none;
         border: none;
     }
+}
+
+#bs-example-navbar-collapse-1 {
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    background: #5e5e5e;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 99999;
+}
+
+#bs-example-navbar-collapse-1 h3 {
+    position: absolute;
+    font-size: 50px;
+    left: 50%;
+    top: -30px;
+}
+
+.nav li a {
+    color: lightgray;
+}
+
+div#new-tweets, div#pop-tweets {
+    border: 2px solid rgba(60,60,60,0.5);
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.5);
+    padding: 20px;
+}
+
+div#new-tweets {
+    margin-top: 50px;
+}
+
+div#pop-tweets {
+    margin-bottom: 50px;
+}
+
+div.container {
+    padding: 50px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+div.container-background {
+    z-index: -10000;
+    background: #e7e7e7;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 50px;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+a.tweets {
+    margin: 10px;
+}
+
+a.tweets img {
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    height: 300px;
+    opacity: inherit;
+}
+
+a.tweets img:hover {
+    opacity: 0.7;
+    filter:alpha(opacity=50); 
+    transition: all 0.2s ease 0s;
+    transform: scale(1.10);
+}
+
+.tweet-displayed {
+    margin-top: 80px;  
+    border: 2px solid rgba(60,60,60,0.5);
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.5);
+    padding: 20px;
+}
+
+.btn-vignette {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+
+#favorites {
+    margin-top: 80px;  
+    border: 2px solid rgba(60,60,60,0.5);
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.5);
+    padding: 20px;
+}
+
+.likes {
+    position: relative;
+    left: 10px;
+}
+
+.btn-likes {
+    position: relative;
+    left: 10px;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    border: solid 1px #ccc;
+    background: #fff;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: .5em 2em .55em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: .5em; 
+    -moz-border-radius: .5em;
+    border-radius: .3em;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.btn-likes:hover {
+    text-decoration: none;
+    background: #e7e7e7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e7e7e7));
+    background: -moz-linear-gradient(top, #fff, #e7e7e7);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#e7e7e7');
+}
+.btn-likes:active {
+    text-decoration: none;
+    position: relative;
+    top: 1px;
 }
