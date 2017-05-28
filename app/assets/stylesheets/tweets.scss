@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Dancing in the Rainbow";
-  src: font-url("Dancing in the Rainbow.ttf");
+  src: url("Dancing in the Rainbow.ttf");
 }
 
 @font-face {
   font-family: "Museo";
-  src: font-url("MuseoSans_500.ttf");
+  src: url("MuseoSans_500.ttf");
 }
 
 .rainbow {
@@ -96,6 +96,12 @@
     top: -30px;
 }
 
+@media only screen and (max-width: 1000px) {
+    #bs-example-navbar-collapse-1 h3 {
+        display: none;
+    }
+}
+
 .nav li a {
     color: lightgray;
 }
@@ -183,9 +189,13 @@ a.tweets img:hover {
     padding: 20px;
 }
 
-.likes {
+.likes, .pos-left {
     position: relative;
     left: 10px;
+}
+.pos-left2 {
+    position: relative;
+    left: -5px;
 }
 
 .btn-likes {

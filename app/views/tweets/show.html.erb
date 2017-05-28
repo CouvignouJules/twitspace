@@ -22,7 +22,7 @@
             <%= link_to("like", tweets_like_path(@tweet), method: :patch, :class => "btn-likes") %>
           <% end %>
         <% else %>
-          <p>Vous devez être connecté(e) pour liker le tweet.</p>
+          <p class="pos-left">Vous devez être connecté(e) pour liker le tweet.</p>
         <% end %>
       </div><br />
   
@@ -32,7 +32,7 @@
       <% if user_signed_in? %>
         <%= render partial: "comments/form", locals: { tweet: @tweet, comment: @new_comment } %>
       <% else %>
-        <p>Vous devez être connecté(e) pour laisser un commentaire.</p>
+        <p class="pos-left2">Vous devez être connecté(e) pour laisser un commentaire.</p>
       <% end %>
     </div>
   

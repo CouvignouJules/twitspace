@@ -2,6 +2,13 @@ class ApiV1::CommentsController < ActionController::Base
 	acts_as_token_authentication_handler_for User
 
 	#On peut créer un commentaire via l'api
+	#Exemple de requête:
+	# => curl -X POST \
+	#         -H 'Content-Type: application/json' \
+	#         -H "X-User-Email: b@b.fr" \
+	#         -H "X-User-Token: KdAVvNVAhhkLNuskkHPA" \
+	#         -d '{ "comment": { "user_id": 1, "tweet_id": 0, "text": "TEST API 1" } }' http://10.0.2.15:3000/api_v1/comments
+
 	def create
 	  	@new_comment = Comment.new(comment_params)
 		
