@@ -1,19 +1,19 @@
 @font-face {
-  font-family: "Rainbow";
-  src: url("fonts/Dancing in the Rainbow.ttf");
+  font-family: "Dancing in the Rainbow";
+  src: url("Dancing in the Rainbow.ttf");
 }
 
 @font-face {
   font-family: "Museo";
-  src: url("fonts/MuseoSans_500.otf");
+  src: url("MuseoSans_500.ttf");
 }
 
 .rainbow {
-    font-family: "Rainbow", serif;
+    font-family: "Dancing in the Rainbow";
 }
 
 .museo {
-    font-family: "Museo", serif;
+    font-family: "Museo";
 }
 
 .no-style {
